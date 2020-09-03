@@ -9,8 +9,8 @@ unit = (input("Enter unit in F/f or C/c: "))
 if unit == "F" or unit == "f":
   ##print("Converting Fahrenheit to Celsius.")
   newCelsius = ((temp - 32) * 5)/9
-  print(f"{temp}° Fahrenheit is equivalent to {newCelsius}° Celsius.")
+  print(f"{temp}° in Fahrenheit is equivalent to {newCelsius}° Celsius.")
 elif unit == "C" or unit == "c":
   ##print("Converting Celsius to Fahrenheit.")
   newFahrenheit = ((temp * 9)/5) + 32
-  print(f"{temp}° Celsius is equivalent to {newFahrenheit}° Fahrenheit.")
+  print(f"{temp}° in Celsius is equivalent to {newFahrenheit}° Fahrenheit.")
