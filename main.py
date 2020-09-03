@@ -21,9 +21,9 @@ temp = float(input("Enter temperature: "))
 unit = str(input("Enter unit in F/f or C/c: "))
 if unit == "F" or unit == "f":
   print("Converting Fahrenheit to Celsius.")
-  newCelsius = (temp - 32) * 5/9
+  newCelsius = ((temp - 32) * 5)/9
   print(f"{temp}° in Fahrenheit is equivalent to {newCelsius}° in Celsius.")
 elif unit == "C" or unit == "c":
   print("Converting Celsius to Fahrenheit.")
-  newFahrenheit = (temp * 9/5) - 32
+  newFahrenheit = ((temp * 9)/5) + 32
   print(f"{temp}° in Celsius is equivalent to {newFahrenheit}° Fahrenheit.")
